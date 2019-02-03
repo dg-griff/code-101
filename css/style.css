@@ -1,0 +1,28 @@
+body {
+    background-color: maroon;
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.logo{
+    float: right;
+}
+
+.holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kraigg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

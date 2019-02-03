@@ -35,34 +35,58 @@ h3 {
     background-color: yellow;
     border: none;
     color: maroon;
-    padding: 15px 32px;
+    padding: 3px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
     cursor: pointer;
   }
 
+  .button2 {
+    background-color: white;
+    border: none;
+    color: maroon;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
-/* a.nav-link:link
-{
-   color: #fb3f00;
-   text-decoration: none;
+a.three:link {color: white;}
+a.three:visited {color: yellow;}
+a.three:hover {background: maroon;}
+
+h4{
+    text-align: center;
+    color: white;
 }
-a.nav-link:visited
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:hover
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:active
-{
-   color: #fb3f00;
-   text-decoration: none;
-} */

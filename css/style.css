@@ -5,6 +5,15 @@ body {
     background-image: url("images/cwilogoback.png");
 }
 
+.jumbotron {
+	background-color: maroon;
+	color: yellow;
+}
+
+.jumbo{
+    color: white;
+}
+
 h1 {
     text-align: center;
 }
@@ -13,12 +22,12 @@ h2 {
     text-align: center;
 }
 
-/* h3 {
+h3{
     color: white;
-} */
+}
 
 .logo{
-    float: right;
+    text-align: center;
 }
 
 .holder {
@@ -111,4 +120,9 @@ h4{
 
 .news{
     color: white;
+}
+
+iframe {
+    display:block;
+    margin: 0 auto;
 }
